@@ -1,0 +1,43 @@
+.folder__container {
+  max-width: 300px;
+  font-size: 1.5rem;
+  cursor: pointer;
+}
+
+.title__btns--container {
+  display: flex;
+  justify-content: space-between;
+
+  margin: 0.5rem;
+}
+.action__btns > button {
+  margin-right: 8px;
+}
+
+.select__input,
+.select__option {
+  margin-top: 1rem;
+  padding: 8px;
+
+  border: 1px solid lightgray;
+  border-radius: 8px;
+
+  cursor: pointer;
+}
+
+.select__input.opened {
+  border-bottom: 0;
+}
+.select__options--container {
+  border: 1px solid lightgray;
+  border-top: none;
+}
+.select__option {
+  border: none;
+  margin-top: unset;
+}
+
+.multi__select {
+  display: inline;
+  margin-right: 8px;
+}
